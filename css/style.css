@@ -1,0 +1,358 @@
+/* common css*/
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+}
+.heading h2{
+    padding: 98px 0 0 0;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+.heading p{
+    font-size: 16px;
+    color: #7e8287;
+   
+}
+
+
+
+a{
+text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1170;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+.card{
+    width: 50%;
+}
+body{font-family: 'Open Sans', sans-serif;}
+
+/*common css end*/
+
+
+
+/*nav*/
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 50%;
+    padding: 0 0 0 66px;
+}
+
+nav .menu{
+    width: 50%;
+}
+nav ul li{
+    display:inline-block ;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px ;
+    display: inline-block;
+    transition: 0.35s;
+    
+}
+
+.menu li :hover{
+     background-color: #cfc91dcb;
+}
+
+
+/*nav end*/
+
+/* banner */
+#banner{
+    background-color: rgba(0, 0, 0, 0.35);
+    background-image: url(../image/benar.jpeg);
+    padding: 210px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+
+}
+
+.banner_cnt{
+    text-align: center;
+}
+
+.banner_cnt h3{
+font-weight: 400;
+font-size: 30px;
+}
+
+.banner_cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    
+}
+.banner_cnt p{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.banner_cnt img{
+    display: block;
+    margin: auto;
+    padding: 52px 0;
+}
+
+
+.banner_cnt a{
+    font-weight: 800;
+        text-decoration: none;
+        background-color: #cfc91d;
+        color: black;
+        padding: 19px 46px;
+}
+/* banner end */
+
+
+/* About */
+#about{
+    padding: 98px 0;
+    
+}
+#about .details{
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+    padding: 38px 0;
+}
+#about.details b{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+#about .about-card{
+    width: 25%;
+    text-align: center;
+    padding: 36px 0;
+    border-right: 1px solid #7e828767;
+
+}
+#about .about-card:last-child{
+    border: none;
+}
+#about .about-card span {
+    color: #02918c;
+    font-size: 25px;
+    
+}
+#about .about-card h3{
+    font-weight: 800;
+    font-size: 16px;
+    color: #7e8287;
+    padding: 29px 0;
+}
+#about .about-card p{
+    font-size: 11px;
+    color: #7e8287;
+}
+      
+/* About end */
+
+
+
+
+/* services */
+
+#services .container .heading {
+    text-align: left;
+    padding-left: 30px;
+}
+#services .container .heading h2{
+    margin-bottom: 43px;
+}
+#services .container #details{
+    font-size: 16px;
+    color: #7e8287;
+    padding-top: 31px;
+
+#services .container{
+    padding-left: 30px;
+}
+    
+}
+.services-card {
+    width: 35%;
+   
+   
+
+}
+.services-card span i{
+    padding-top: 63px;
+    color: #02918c;
+    font-size: 25px;
+    
+}
+.services-card h3{
+    padding-top: 19px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+.services-card p{
+    padding-top: 19px;
+    font-size: 11px;
+    color: #7e8287;
+
+}
+#services{
+    background-image: url(../image/MYFOLIO-Recovered-Recovered.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+
+/* services end */
+
+
+/* my work */
+#my-work .container #details{
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+    padding-bottom: 81px;
+}
+
+#my-work .container .heading p{
+    padding-bottom: 30px;
+  
+}
+
+#my-work{
+    padding-bottom: 77px;
+}
+
+#work .work-card{
+    width: 25%;
+    position: relative;
+    
+  
+}
+#work .work-card img{
+    width: 100%;
+    display: block;
+ 
+}
+
+
+
+
+.work-card .overlay{
+    background-color: #26988ecc;
+    position: absolute;
+    inset:  20px;
+    color: white;
+    text-align: center;
+    opacity: 0;
+   padding-top:50px  ;
+   transition: 0.35s;
+   margin-top: 80px;
+
+   
+   
+}
+
+.work-card:hover .overlay{
+opacity: 1;
+margin-top: 0;
+}
+
+
+/* my work */
+/* contact */
+#contact .container #details{
+    font-size: 16px;
+    color: #7e8287;
+    padding-top: 31px;
+    text-align: center;
+    padding-bottom: 75px;
+
+}
+
+#contact-box{
+    background-color: #0b0b0b;
+    padding: 66px 0;
+}
+.form_input input
+{width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+}
+.form_input {
+    width: 646px;
+    margin: auto;
+}
+#button {
+    background-color: #cfc91d;
+    color: #181c16;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 65px;
+    display: inline-block;
+   
+}
+#contact-box a{
+    align-items: center;
+    margin: 0 230px;
+    margin-top: 70px;
+}
+#contact_me .copyright {
+    color: white;
+    text-align: center;
+    padding: 30px 0 27px 0;}
+    
+
+
+    .copyright {
+        padding: 34px 0;
+        background-color: black;
+        text-align: center;
+    }
+    .copyright p{
+        color: white;
+        font-size: 12px;
+    }
+/* contact end */
+
+
+
+
+
+
+
